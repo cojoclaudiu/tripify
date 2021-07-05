@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { db } from '../../apis/firebase';
 
 const countryList = require('country-list');
