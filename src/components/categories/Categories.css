@@ -1,0 +1,27 @@
+.subHeaderCategories {
+  display: grid;
+  height: 70px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0 10px;
+}
+
+.categoryItem {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.categoryItem:hover {
+  background-color: black;
+  color: white;
+}
+
+.wrapWord {
+  display: inline-block;
+  max-width: min-content;
+}
